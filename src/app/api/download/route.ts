@@ -100,13 +100,15 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // Save download record to database
+    // Save download record to database (if available)
     try {
-      await db.insert(downloads).values({
-        videoUrl: url,
-        videoTitle: videoData.title,
-        author: videoData.author,
-      });
+      if (db) {
+        await db.insert(downloads).values({
+          videoUrl: url,
+          videoTitle: videoData.title,
+          author: videoData.author,
+        });
+      }
     } catch (dbError) {
       console.error('Database error:', dbError);
       // Continue even if database save fails
@@ -130,7 +132,15 @@ export async function POST(request: NextRequest) {
 
 export async function GET() {
   try {
-    // Get recent downloads from database
+    // Get recent downloads from database (if available)
+    if (!db) {
+      return NextResponse.json({
+        success: true,
+        downloads: [],
+        message: 'Database not configured'
+      });
+    }
+    
     const recentDownloads = await db.select().from(downloads).limit(10).orderBy(downloads.downloadedAt);
     
     return NextResponse.json({
@@ -139,9 +149,10 @@ export async function GET() {
     });
   } catch (error) {
     console.error('Error fetching downloads:', error);
-    return NextResponse.json(
-      { error: 'Failed to fetch downloads' },
-      { status: 500 }
-    );
+    return NextResponse.json({
+      success: true,
+      downloads: [],
+      error: 'Database error'
+    });
   }
 }
