@@ -1,7 +1,8 @@
 {
-  "name": "TikTok Video Downloader",
-  "short_name": "TikDL",
-  "description": "Download TikTok videos without watermark in HD quality",
+  "name": "Video Downloader - TikTok, Instagram, YouTube",
+  "short_name": "VideoDL",
+  "description": "Download videos from TikTok, Instagram, and YouTube without watermark in HD quality",
+  ...rest stays the same
   "start_url": "/",
   "display": "standalone",
   "background_color": "#9333EA",
