@@ -1,0 +1,44 @@
+================================================================================
+📥 HOW TO DOWNLOAD PROJECT FILES
+================================================================================
+
+METHOD 1: Download Individual Files (Easiest)
+────────────────────────────────────────────────────────
+
+In the file explorer on the left side of your screen:
+
+REQUIRED FILES - Download these:
+  📄 package.json
+  📄 package-lock.json
+  📄 next.config.ts
+  📄 tsconfig.json
+  📄 postcss.config.mjs
+  📄 eslint.config.mjs
+  📄 drizzle.config.json
+  📄 .gitignore
+  📄 vercel.json
+
+FOLDERS TO DOWNLOAD:
+  📂 src/ (entire folder with all files inside)
+  📂 public/ (entire folder with all files inside)
+
+SKIP THESE (Don't download):
+  ❌ node_modules/ (too big, will reinstall)
+  ❌ .next/ (build folder, auto-generated)
+  ❌ .env (has your secrets, add manually later)
+
+DOCUMENTATION (Optional):
+  📄 README.md
+  📄 START_HERE.md
+  📄 EASY_DEPLOY.md
+  📄 All other .md and .txt files
+
+METHOD 2: If you can access terminal
+────────────────────────────────────────────────────────
+
+Create a zip file:
+  zip -r tiktok-downloader.zip . -x "node_modules/*" ".next/*" ".env"
+
+Then download the zip file.
+
+================================================================================

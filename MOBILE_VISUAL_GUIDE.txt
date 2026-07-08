@@ -1,0 +1,516 @@
+================================================================================
+📱 MOBILE VISUAL GUIDE - TikTok Downloader PWA
+================================================================================
+
+Visual, step-by-step guide with ASCII diagrams!
+
+================================================================================
+📲 INSTALLATION VISUAL GUIDE
+================================================================================
+
+iPhone (iOS) - Safari
+──────────────────────────────────────────────────────────
+
+Step 1: Open Safari and go to app
+┌─────────────────────────┐
+│  Safari                 │
+│ ┌─────────────────────┐ │
+│ │ tiktokdl.app        │ │ ← Your app URL
+│ └─────────────────────┘ │
+│                         │
+│   🎵 TikTok Downloader  │
+│   Download videos...    │
+│                         │
+│  [Input field]          │
+│  [Get Video]            │
+└─────────────────────────┘
+
+Step 2: Tap Share button at bottom
+┌─────────────────────────┐
+│                         │
+│   Your content here     │
+│                         │
+│ ┌─────────────────────┐ │
+│ │ 📤 Share  📖 Reader │ │ ← Tap this (📤)
+│ └─────────────────────┘ │
+└─────────────────────────┘
+
+Step 3: Scroll and tap "Add to Home Screen"
+┌─────────────────────────┐
+│  Share Menu             │
+│ ┌─────────────────────┐ │
+│ │ 📧 Mail             │ │
+│ │ 📱 Messages         │ │
+│ │ ⭐ Add to Reading   │ │
+│ │ 🏠 Add to Home...   │ │ ← Tap this
+│ └─────────────────────┘ │
+└─────────────────────────┘
+
+Step 4: Confirm and add
+┌─────────────────────────┐
+│  Add to Home Screen     │
+│ ┌─────────────────────┐ │
+│ │ [Icon]  TikDL       │ │ ← Can edit name
+│ └─────────────────────┘ │
+│                         │
+│ [Cancel]        [Add]   │ ← Tap Add
+└─────────────────────────┘
+
+Step 5: Find on home screen
+┌─────────────────────────┐
+│  Home Screen            │
+│                         │
+│  📱 Photos  🎵 TikDL    │ ← Your new app!
+│  📞 Phone   📧 Mail     │
+│  🌐 Safari  ⚙️ Settings │
+│                         │
+└─────────────────────────┘
+
+Android - Chrome
+──────────────────────────────────────────────────────────
+
+Step 1: Open Chrome and go to app
+┌─────────────────────────┐
+│  Chrome                 │
+│ ┌─────────────────────┐ │
+│ │ tiktokdl.app        │ │
+│ └─────────────────────┘ │
+│                         │
+│   🎵 TikTok Downloader  │
+│                         │
+│  ┌────────────────────┐ │
+│  │ Install App        │ │ ← Popup appears
+│  └────────────────────┘ │
+└─────────────────────────┘
+
+Step 2: Tap Install
+┌─────────────────────────┐
+│  Install app?           │
+│                         │
+│  🎵 TikDL               │
+│  This site can be...    │
+│                         │
+│ [Cancel]     [Install]  │ ← Tap Install
+└─────────────────────────┘
+
+Step 3: App appears in app drawer
+┌─────────────────────────┐
+│  App Drawer             │
+│                         │
+│  📸 Camera  🎵 TikDL    │ ← Installed!
+│  📧 Gmail   📱 Phone    │
+│  🌐 Chrome  ⚙️ Settings │
+│                         │
+└─────────────────────────┘
+
+================================================================================
+🎬 SHARING FROM TIKTOK VISUAL GUIDE
+================================================================================
+
+TikTok App Flow
+──────────────────────────────────────────────────────────
+
+Step 1: Find video in TikTok
+┌─────────────────────────┐
+│  TikTok                 │
+│ ┌─────────────────────┐ │
+│ │                     │ │
+│ │   [Video Playing]   │ │
+│ │                     │ │
+│ │         ♥️          │ │
+│ │         💬          │ │
+│ │         ↗️  Share   │ │ ← Tap this
+│ │         🎵          │ │
+│ └─────────────────────┘ │
+└─────────────────────────┘
+
+Step 2: Select TikDL app
+┌─────────────────────────┐
+│  Share to...            │
+│ ┌─────────────────────┐ │
+│ │ 📱 Messages         │ │
+│ │ 📧 Email            │ │
+│ │ 🎵 TikDL            │ │ ← Tap this!
+│ │ 📋 Copy Link        │ │
+│ │ ➕ More...          │ │
+│ └─────────────────────┘ │
+└─────────────────────────┘
+
+Step 3: TikDL opens automatically
+┌─────────────────────────┐
+│  TikDL App              │
+│                         │
+│  Enter TikTok URL       │
+│ ┌─────────────────────┐ │
+│ │ https://tiktok.com/ │ │ ← Auto-filled!
+│ │ @user/video/123     │ │
+│ └─────────────────────┘ │
+│                         │
+│  [🔍 Get Video]         │ ← Processing...
+└─────────────────────────┘
+
+Step 4: Download ready
+┌─────────────────────────┐
+│  TikDL App              │
+│                         │
+│  ✅ Video Ready         │
+│ ┌─────────────────────┐ │
+│ │ [Thumbnail]         │ │
+│ │ "Cool dance video"  │ │
+│ │ by @username        │ │
+│ └─────────────────────┘ │
+│                         │
+│  [⬇️ Download SD]       │
+│  [⬇️ Download HD]       │ ← Tap to download
+│  [🎵 Download Music]    │
+└─────────────────────────┘
+
+Step 5: Downloaded!
+┌─────────────────────────┐
+│  Downloads              │
+│                         │
+│  🎬 tiktok-video.mp4    │ ← Your video!
+│     Just now            │
+│     15.2 MB             │
+│                         │
+│  [Open]  [Share]        │
+└─────────────────────────┘
+
+================================================================================
+🎯 USAGE COMPARISON
+================================================================================
+
+Before (Manual Copy-Paste)
+──────────────────────────────────────────────────────────
+
+TikTok App:
+┌─────────┐    ┌─────────┐    ┌─────────┐
+│ 1. Find │ → │ 2. Copy │ → │ 3. Exit │
+│  video  │    │  link   │    │  TikTok │
+└─────────┘    └─────────┘    └─────────┘
+     │              │              │
+     ▼              ▼              ▼
+Browser:
+┌─────────┐    ┌─────────┐    ┌─────────┐
+│ 4. Open │ → │ 5. Paste│ → │ 6. Down │
+│ browser │    │  link   │    │  load   │
+└─────────┘    └─────────┘    └─────────┘
+
+Total: 6 steps, ~1 minute
+
+
+After (Direct Share)
+──────────────────────────────────────────────────────────
+
+TikTok App:
+┌─────────┐    ┌─────────┐    ┌─────────┐
+│ 1. Find │ → │ 2. Share│ → │ 3. Done!│
+│  video  │    │ to TikDL│    │ ✅      │
+└─────────┘    └─────────┘    └─────────┘
+
+Total: 3 steps, ~10 seconds
+
+SAVINGS: 3 steps, 50 seconds! ⚡
+
+================================================================================
+📊 APP FEATURES VISUAL
+================================================================================
+
+PWA Capabilities
+──────────────────────────────────────────────────────────
+
+┌──────────────────────────────────────┐
+│     🎵 TikTok Downloader PWA         │
+├──────────────────────────────────────┤
+│                                      │
+│  ✅ Install to home screen           │
+│     Works like native app            │
+│                                      │
+│  ✅ Share target enabled             │
+│     Receive shares from TikTok       │
+│                                      │
+│  ✅ Offline UI                       │
+│     Interface loads without internet │
+│                                      │
+│  ✅ Auto-updates                     │
+│     Always latest version            │
+│                                      │
+│  ✅ No app store needed              │
+│     Install directly from browser    │
+│                                      │
+│  ✅ Cross-platform                   │
+│     iOS, Android, Desktop            │
+│                                      │
+└──────────────────────────────────────┘
+
+================================================================================
+🔄 DATA FLOW DIAGRAM
+================================================================================
+
+Share Target Flow
+──────────────────────────────────────────────────────────
+
+User in TikTok
+      │
+      │ Taps Share
+      ▼
+  TikTok App
+      │
+      │ Shows share sheet
+      ▼
+  Share Sheet
+      │
+      │ User selects TikDL
+      ▼
+  Operating System
+      │
+      │ Sends URL to TikDL
+      ▼
+  TikDL PWA
+      │
+      ├─► /share endpoint receives URL
+      │
+      ├─► Redirects to /?url=...
+      │
+      ├─► Main page loads with URL
+      │
+      ├─► Auto-fetches video info
+      │
+      ├─► Displays download buttons
+      │
+      └─► User downloads video
+           │
+           ▼
+      Downloaded! ✅
+
+================================================================================
+🎨 UI STATES VISUAL
+================================================================================
+
+Loading State
+┌─────────────────────────┐
+│  TikDL                  │
+│                         │
+│  Enter TikTok URL       │
+│ ┌─────────────────────┐ │
+│ │ https://...         │ │
+│ └─────────────────────┘ │
+│                         │
+│  [ ⏳ Loading... ]      │ ← Processing
+│                         │
+└─────────────────────────┘
+
+Success State
+┌─────────────────────────┐
+│  TikDL                  │
+│                         │
+│  ✅ Video Ready!        │
+│ ┌─────────────────────┐ │
+│ │ [📷 Thumbnail]      │ │
+│ │                     │ │
+│ │ "Amazing video"     │ │
+│ │ by @creator         │ │
+│ └─────────────────────┘ │
+│                         │
+│  [⬇️ Download HD]       │
+└─────────────────────────┘
+
+Error State
+┌─────────────────────────┐
+│  TikDL                  │
+│                         │
+│  Enter TikTok URL       │
+│ ┌─────────────────────┐ │
+│ │ invalid-url         │ │
+│ └─────────────────────┘ │
+│                         │
+│  ❌ Error: Invalid URL  │ ← Error message
+│     Please try again    │
+│                         │
+└─────────────────────────┘
+
+================================================================================
+🏠 HOME SCREEN LAYOUT
+================================================================================
+
+iPhone Home Screen with TikDL
+──────────────────────────────────────────────────────────
+
+┌─────────────────────────┐
+│  12:30      ●●● 📶 🔋   │
+│                         │
+│                         │
+│  📱      📸      🎵      │
+│ Phone   Camera  TikDL   │ ← Your app here!
+│                         │
+│  📧      💬      🌐      │
+│ Mail   Messages Safari  │
+│                         │
+│  🎬      📱      ⚙️      │
+│ Videos  Files  Settings │
+│                         │
+│  ─────  TikDL  ─────    │ ← Dock (optional)
+└─────────────────────────┘
+
+Android App Drawer with TikDL
+──────────────────────────────────────────────────────────
+
+┌─────────────────────────┐
+│  🔍 Search apps          │
+│                         │
+│  📷      📧      📁      │
+│ Camera  Gmail   Files   │
+│                         │
+│  📱      🎵      💬      │
+│ Phone   TikDL  Messages │ ← Your app here!
+│                         │
+│  🌐      ⚙️      📸      │
+│ Chrome Settings Photos  │
+│                         │
+└─────────────────────────┘
+
+================================================================================
+📱 DEVICE COMPATIBILITY CHART
+================================================================================
+
+Platform Support Visual
+──────────────────────────────────────────────────────────
+
+                    Install  Share   Offline  Auto-
+                    to Home  Target  Support  Update
+──────────────────────────────────────────────────────────
+iOS Safari 13+      ✅       ⚠️      ✅       ✅
+iOS Chrome          ❌       ❌      ❌       ❌
+──────────────────────────────────────────────────────────
+Android Chrome      ✅       ✅      ✅       ✅
+Android Edge        ✅       ✅      ✅       ✅
+Android Firefox     ⚠️       ⚠️      ⚠️       ⚠️
+──────────────────────────────────────────────────────────
+Desktop Chrome      ✅       ✅      ✅       ✅
+Desktop Edge        ✅       ✅      ✅       ✅
+Desktop Safari      ✅       ❌      ✅       ✅
+──────────────────────────────────────────────────────────
+
+Legend:
+✅ = Fully supported
+⚠️ = Partially supported / Limited
+❌ = Not supported
+
+BEST: Android Chrome/Edge
+GOOD: iOS Safari, Desktop Chrome
+LIMITED: Other browsers
+
+================================================================================
+🎯 QUICK REFERENCE CARD
+================================================================================
+
+┌────────────────────────────────────────┐
+│  📱 TikTok Downloader Quick Card       │
+├────────────────────────────────────────┤
+│                                        │
+│  INSTALL:                              │
+│  📲 iPhone: Safari → Share → Add       │
+│  🤖 Android: Chrome → Install          │
+│                                        │
+│  USE:                                  │
+│  1️⃣ Open TikTok                        │
+│  2️⃣ Share to TikDL                     │
+│  3️⃣ Download! ✅                       │
+│                                        │
+│  FEATURES:                             │
+│  ✅ No watermark                       │
+│  ✅ HD quality                         │
+│  ✅ Audio extraction                   │
+│  ✅ Direct sharing                     │
+│                                        │
+│  HELP:                                 │
+│  📖 Read MOBILE_GUIDE.md               │
+│  ⚡ See MOBILE_QUICK_START.md          │
+│                                        │
+└────────────────────────────────────────┘
+
+================================================================================
+🎬 ANIMATED FLOW (Text Animation)
+================================================================================
+
+Download Process
+──────────────────────────────────────────────────────────
+
+Step 1 [■□□□□□□] Opening TikTok...
+Step 2 [■■□□□□□] Finding video...
+Step 3 [■■■□□□□] Tapping share...
+Step 4 [■■■■□□□] Selecting TikDL...
+Step 5 [■■■■■□□] Processing URL...
+Step 6 [■■■■■■□] Fetching video...
+Step 7 [■■■■■■■] Downloaded! ✅
+
+Total time: ~10 seconds
+
+================================================================================
+💡 PRO TIPS VISUAL
+================================================================================
+
+Tips and Tricks
+──────────────────────────────────────────────────────────
+
+🎯 Fastest Method:
+   TikTok → Share → TikDL → Download
+   (3 taps, 10 seconds)
+
+🔄 Alternative Method:
+   TikTok → Copy → TikDL → Paste → Download
+   (4 taps, 20 seconds)
+
+⚡ Power User:
+   Install app + Enable "Always share to TikDL"
+   = One-tap downloads!
+
+📱 Best Setup:
+   ┌──────────────────┐
+   │ 1. Install app   │
+   │ 2. Test once     │
+   │ 3. Set "Always"  │
+   │ 4. Enjoy! 🎉     │
+   └──────────────────┘
+
+================================================================================
+🎉 SUCCESS CHECKLIST
+================================================================================
+
+Installation Success
+──────────────────────────────────────────────────────────
+
+☐ App appears on home screen
+☐ Opens in standalone mode (no browser UI)
+☐ Icon displays correctly
+☐ Can access from app drawer/home screen
+
+Share Success
+──────────────────────────────────────────────────────────
+
+☐ TikDL appears in TikTok share menu
+☐ Sharing opens TikDL app
+☐ URL auto-fills in app
+☐ Video downloads successfully
+
+Functionality Success
+──────────────────────────────────────────────────────────
+
+☐ Videos download without watermark
+☐ HD quality available
+☐ Music extraction works
+☐ Offline UI loads
+☐ App updates automatically
+
+================================================================================
+
+🎊 CONGRATULATIONS!
+You now understand the mobile PWA features!
+
+📱 Install it on your phone
+🎵 Share from TikTok directly
+✨ Download in seconds
+
+Happy mobile downloading! 🚀
+
+================================================================================
