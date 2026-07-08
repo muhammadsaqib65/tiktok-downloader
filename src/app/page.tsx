@@ -16,6 +16,8 @@ function HomeContent() {
   const searchParams = useSearchParams();
   const [url, setUrl] = useState('');
   const [loading, setLoading] = useState(false);
+  const [videoData, setVideoData] = useState<VideoData | null>(null);
+  const [platform, setPlatform] = useState<string>('');
   const [error, setError] = useState('');
   const [videoData, setVideoData] = useState<VideoData | null>(null);
   const [isStandalone, setIsStandalone] = useState(false);
@@ -51,6 +53,14 @@ function HomeContent() {
         },
         body: JSON.stringify({ url: tiktokUrl }),
       });
+      const data = await response.json();
+
+      if (!response.ok) {
+      throw new Error(data.error || 'Failed to download video');
+    }
+
+setPlatform(data.platform || 'tiktok'); // ADD THIS LINE
+setVideoData(data.data);
 
       const data = await response.json();
 
@@ -65,6 +75,12 @@ function HomeContent() {
       setLoading(false);
     }
   };
+  <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 md:mb-4">
+  🎬 Video Downloader
+</h1>
+<p className="text-lg md:text-xl text-white/90">
+  Download from TikTok, Instagram & YouTube
+</p>
 
   const handleDownload = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -103,14 +119,33 @@ function HomeContent() {
         )}
 
         {/* Header */}
-        <div className="text-center mb-8 md:mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 md:mb-4">
-            🎵 TikTok Downloader
-          </h1>
-          <p className="text-lg md:text-xl text-white/90">
-            Download videos without watermark in HD
-          </p>
-        </div>
+        {videoData && (
+  <div className="border-t pt-8">
+    {/* ADD THIS PLATFORM BADGE */}
+    <div className="mb-4 flex items-center justify-center gap-2">
+      {platform === 'tiktok' && (
+        <span className="px-4 py-2 bg-purple-100 text-purple-700 rounded-full font-semibold">
+          📱 TikTok Video
+        </span>
+      )}
+      {platform === 'instagram' && (
+        <span className="px-4 py-2 bg-pink-100 text-pink-700 rounded-full font-semibold">
+          💜 Instagram Video
+        </span>
+      )}
+      {platform === 'youtube' && (
+        <span className="px-4 py-2 bg-red-100 text-red-700 rounded-full font-semibold">
+          ▶️ YouTube Video
+        </span>
+      )}
+    </div>
+    
+    <h2 className="text-2xl font-bold text-gray-800 mb-6">
+      ✅ Video Ready to Download
+    </h2>
+    {/* Rest of your existing code... */}
+  </div>
+)}
 
         {/* Main Card */}
         <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl p-8 mb-8">
@@ -126,7 +161,7 @@ function HomeContent() {
                   id="url"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
-                  placeholder="https://www.tiktok.com/@username/video/..."
+                  placeholder="Paste TikTok, Instagram, or YouTube URL..."
                   className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-purple-500 text-gray-800"
                   required
                 />
@@ -191,6 +226,9 @@ function HomeContent() {
                       </button>
                     </div>
                   )}
+                  <p className="text-white/80 text-sm">
+                  TikTok, Instagram, or YouTube link
+                  </p>
 
                   {videoData.hdDownloadUrl && (
                     <div>
